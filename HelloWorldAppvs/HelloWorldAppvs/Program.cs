@@ -10,6 +10,11 @@ namespace HelloWorldAppvs
     {
         static void Main(string[] args)
         {
-        }
+            Console.WriteLine($"Please enter a number: ");
+            string number = "";
+            number = Console.ReadLine();
+            Console.WriteLine($"The number you entered was: " + number);
+            Console.ReadKey();
+        }   
     }
 }
